@@ -7,37 +7,263 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    class="bg-gray-300 px-2 py-2 sm:px-24  [&>*]:bg-white [&>*]:text-gray-400"
+    class="bg-gray-300 px-2 py-2 sm:px-24 [&>*]:bg-white [&>*]:text-gray-400"
   >
-    <header class="flex size-auto items-center gap-2 p-4 border border-solid border-gray-500 ">
+    <header
+      class="flex size-auto items-center gap-2 border border-solid border-gray-500 p-4"
+    >
       <img src="./images/icon.png" class="h-12 w-12 object-contain" />
       <div class="pr-3 text-2xl font-bold text-red-600">Target</div>
       <div class="grow text-sm text-gray-400">
         Premium landing page template
       </div>
-      <div class="font-bold text-red-600 pr-6 text-center">Call Now! </div>
-      <div class="font-bold text-red-600 text-center">1-800-123-456</div>
+      <div class="pr-6 text-center font-bold text-red-600">Call Now!</div>
+      <div class="text-center font-bold text-red-600">1-800-123-456</div>
     </header>
 
     <main
-    class="flex w-full flex-col justify-center [&>*]:border [&>*]:border-t-0 [&>*]:border-solid [&>*]:border-gray-500 [&>*]:p-8 [&>*]:py-10"
-  >
-    <section class="flex flex-col items-center md:flex-row">
-      <section class="flex w-fit flex-col items-center gap-6">
-        <div class="text-4xl text-black">
-          The perfect way to convert your traffic into sales
-        </div>
-        <div>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
-          voluptatem soluta, exercitationem ad, maxime ratione sapiente eaque nam
-          omnis aperiam excepturi reiciendis! Quis eligendi assumenda consequuntur
-          totam deserunt nobis a!
-        </div>
-        <div>
-          Fuga tenetur itaque praesentium distinctio, non labore voluptatem id
-          harum aliquam quis numquam illo dolor fugiat vitae.
-        </div>
-        <section class="flex flex-row items-center gap-5">
+      class="flex w-full flex-col justify-center [&>*]:border [&>*]:border-t-0 [&>*]:border-solid [&>*]:border-gray-500 [&>*]:p-8 [&>*]:py-10"
+    >
+      <section class="flex flex-col items-center md:flex-row">
+        <section class="flex w-fit flex-col items-center gap-6">
+          <div class="text-4xl text-black">
+            The perfect way to convert your traffic into sales
+          </div>
+          <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Necessitatibus voluptatem soluta, exercitationem ad, maxime ratione
+            sapiente eaque nam omnis aperiam excepturi reiciendis! Quis eligendi
+            assumenda consequuntur totam deserunt nobis a!
+          </div>
+          <div>
+            Fuga tenetur itaque praesentium distinctio, non labore voluptatem id
+            harum aliquam quis numquam illo dolor fugiat vitae.
+          </div>
+          <section class="flex flex-row items-center gap-5">
+            <button
+              class="rounded-full bg-gradient-to-b from-orange-500 to-red-500 p-2 px-5 text-xl font-bold text-red-700 transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-orange-500 hover:text-white hover:shadow-lg"
+            >
+              Purchase now!
+            </button>
+            <div class="text-xl font-bold text-black">or</div>
+            <button
+              class="rounded-full bg-gradient-to-b from-gray-200 to-gray-300 p-2 px-5 text-xl font-bold text-gray-500 transition-all duration-300 hover:scale-105 hover:from-gray-300 hover:to-gray-400 hover:text-white hover:shadow-lg"
+            >
+              Take a tour
+            </button>
+          </section>
+        </section>
+
+        <section class="relative ml-6 h-auto w-full bg-gray-300">
+          <img src="./images/main-img.png" class="w-full object-contain p-1" />
+          <button
+            class="absolute -right-3 top-1/2 z-10 h-8 w-8 transform rounded-full bg-gray-300 pb-2 text-lg font-bold text-black transition-all duration-200 hover:scale-110 hover:bg-gray-500 hover:text-white"
+          >
+            >
+          </button>
+
+          <button
+            class="absolute -left-3 top-1/2 z-10 h-8 w-8 transform rounded-full bg-gray-300 pb-2 text-lg font-bold text-black transition-all duration-200 hover:scale-110 hover:bg-gray-500 hover:text-white"
+          >
+            &lt;
+          </button>
+        </section>
+      </section>
+
+      <section class="flex flex-col gap-10 md:flex-row [&>*]:flex-1">
+        <section class="flex flex-row items-start gap-2">
+          <img
+            src="./images/small-pic.png"
+            class="h-auto w-20 object-contain"
+          />
+          <div class="flex flex-col gap-4">
+            <div class="text-xl text-black">Quick and easy</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              earum nam culpa doloribus explicabo dolores veritatis maxime
+              tempora possimus dolor exercitationem deserunt animi sit nisi
+              dolorum, numquam nobis facere excepturi.
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-row items-start gap-2">
+          <img
+            src="./images/small-pic.png"
+            class="h-auto w-20 object-contain"
+          />
+          <div class="flex flex-col gap-4">
+            <div class="text-xl text-black">Quick and easy</div>
+            <div>
+              Temporibus vel praesentium recusandae aliquam molestias maiores
+              cupiditate, at asperiores architecto in.
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-row items-start gap-2">
+          <img
+            src="./images/small-pic.png"
+            class="h-auto w-20 object-contain"
+          />
+          <div class="flex flex-col gap-4">
+            <div class="text-xl text-black">Quick and easy</div>
+            <div>
+              Nulla natus voluptas fuga deleniti sapiente possimus repellendus,
+              quis autem molestias vero illum dolores quam optio, ducimus veniam
+              atque ut error at.
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="flex flex-col gap-4">
+        <section>
+          <div class="text-xl text-black">Check out the features</div>
+        </section>
+
+        <section class="flex flex-col md:flex-row">
+          <section class="w-auto pr-4 md:w-3/5">
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              ipsam quaerat quasi quidem totam? Ex eaque, laboriosam nobis
+              provident corporis hic officiis soluta amet ullam, omnis eius
+              inventore ipsa cupiditate Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quaerat provident voluptatum maxime dicta eius
+              vero consequatur fugiat hic. Temporibus facere suscipit vel quam
+              mollitia eos esse recusandae beatae, amet nostrum!
+            </div>
+          </section>
+          <section class="flex grow flex-col gap-2">
+            <section
+              class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
+            >
+              <div
+                class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
+              >
+                <span class="relative -top-0.5 hover:text-white">></span>
+              </div>
+              <div class="text-orange-400 hover:text-orange-600">
+                Lorem ipsum dolor sit amet.
+              </div>
+            </section>
+            <section
+              class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
+            >
+              <div
+                class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
+              >
+                <span class="relative -top-0.5 hover:text-white">></span>
+              </div>
+              <div class="text-orange-400 hover:text-orange-600">
+                Lorem ipsum dolor sit amet.
+              </div>
+            </section>
+            <section
+              class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
+            >
+              <div
+                class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
+              >
+                <span class="relative -top-0.5 hover:text-white">></span>
+              </div>
+              <div class="text-orange-400 hover:text-orange-600">
+                Lorem ipsum dolor sit amet.
+              </div>
+            </section>
+            <section
+              class="flex flex-row items-center gap-2 pb-4 [&>*]:cursor-pointer"
+            >
+              <div
+                class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
+              >
+                <span class="relative -top-0.5 hover:text-white">></span>
+              </div>
+              <div class="text-orange-400 hover:text-orange-600">
+                Lorem ipsum dolor sit amet.
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="flex flex-col gap-4">
+        <section>
+          <div class="text-xl text-black">The screenshots</div>
+        </section>
+
+        <section class="flex flex-col gap-2 md:flex-row">
+          <div
+            class="relative flex items-center justify-center bg-gray-400 p-1"
+          >
+            <img
+              src="./images/main-img.png"
+              class="h-full w-full object-contain"
+            />
+            <img
+              src="./images/m-glass.png"
+              class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
+            />
+          </div>
+          <div
+            class="relative flex items-center justify-center bg-gray-400 p-1"
+          >
+            <img
+              src="./images/main-img.png"
+              class="h-full w-full object-contain"
+            />
+            <img
+              src="./images/m-glass.png"
+              class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
+            />
+          </div>
+          <div
+            class="relative flex items-center justify-center bg-gray-400 p-1"
+          >
+            <img
+              src="./images/main-img.png"
+              class="h-full w-full object-contain"
+            />
+            <img
+              src="./images/m-glass.png"
+              class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
+            />
+          </div>
+          <div
+            class="relative flex items-center justify-center bg-gray-400 p-1"
+          >
+            <img
+              src="./images/main-img.png"
+              class="h-full w-full object-contain"
+            />
+            <img
+              src="./images/m-glass.png"
+              class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
+            />
+          </div>
+        </section>
+      </section>
+
+      <section class="flex flex-col gap-4">
+        <section>
+          <div class="text-xl text-black">
+            See what out customers are saying...
+          </div>
+        </section>
+
+        <section class="bf">
+          <div class="border border-black p-8 text-center italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            sint aliquid error iusto cum similique earum eaque, assumenda alias
+            obcaecati quia. Facere expedita nulla ab a vel eius harum? Velit."
+          </div>
+          <section class="flex flex-row pl-4">
+            <div
+              class="h-0 w-0 border-8 border-l-8 border-t-8 border-b-transparent border-l-transparent bg-white"
+            ></div>
+            <div class="text-gray-500 pl-3 pr-2">Mike Tyson,</div><div class="italic">Microsoft</div>
+          </section>
+        </section>
+
+        <section class="flex flex-row items-center gap-5 justify-center">
           <button
             class="rounded-full bg-gradient-to-b from-orange-500 to-red-500 p-2 px-5 text-xl font-bold text-red-700 transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-orange-500 hover:text-white hover:shadow-lg"
           >
@@ -51,167 +277,7 @@
           </button>
         </section>
       </section>
-  
-      <section class="relative ml-6 h-auto w-full bg-gray-300">
-        <img src="./images/main-img.png" class="w-full object-contain p-1" />
-        <button
-          class="absolute -right-3 top-1/2 z-10 h-8 w-8 transform rounded-full bg-gray-300 pb-2 text-lg font-bold text-black transition-all duration-200 hover:scale-110 hover:bg-gray-500 hover:text-white"
-        >
-          >
-        </button>
-  
-        <button
-          class="absolute -left-3 top-1/2 z-10 h-8 w-8 transform rounded-full bg-gray-300 pb-2 text-lg font-bold text-black transition-all duration-200 hover:scale-110 hover:bg-gray-500 hover:text-white"
-        >
-          &lt;
-        </button>
-      </section>
-    </section>
-  
-    <section class="flex flex-col gap-10 md:flex-row [&>*]:flex-1">
-      <section class="flex flex-row items-start gap-2">
-        <img src="./images/small-pic.png" class="h-auto w-20 object-contain" />
-        <div class="flex flex-col gap-4">
-          <div class="text-xl text-black">Quick and easy</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum
-            nam culpa doloribus explicabo dolores veritatis maxime tempora
-            possimus dolor exercitationem deserunt animi sit nisi dolorum, numquam
-            nobis facere excepturi.
-          </div>
-        </div>
-      </section>
-      <section class="flex flex-row items-start gap-2">
-        <img src="./images/small-pic.png" class="h-auto w-20 object-contain" />
-        <div class="flex flex-col gap-4">
-          <div class="text-xl text-black">Quick and easy</div>
-          <div>
-            Temporibus vel praesentium recusandae aliquam molestias maiores
-            cupiditate, at asperiores architecto in.
-          </div>
-        </div>
-      </section>
-      <section class="flex flex-row items-start gap-2">
-        <img src="./images/small-pic.png" class="h-auto w-20 object-contain" />
-        <div class="flex flex-col gap-4">
-          <div class="text-xl text-black">Quick and easy</div>
-          <div>
-            Nulla natus voluptas fuga deleniti sapiente possimus repellendus, quis
-            autem molestias vero illum dolores quam optio, ducimus veniam atque ut
-            error at.
-          </div>
-        </div>
-      </section>
-    </section>
-  
-    <section class="flex flex-col gap-4">
-      <section>
-        <div class="text-xl text-black">Check out the features</div>
-      </section>
-  
-      <section class="flex flex-col md:flex-row">
-        <section class="w-auto pr-4 md:w-3/5">
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ipsam quaerat quasi quidem totam? Ex eaque, laboriosam nobis provident
-            corporis hic officiis soluta amet ullam, omnis eius inventore ipsa
-            cupiditate Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quaerat provident voluptatum maxime dicta eius vero consequatur fugiat
-            hic. Temporibus facere suscipit vel quam mollitia eos esse recusandae
-            beatae, amet nostrum!
-          </div>
-        </section>
-        <section class="flex grow flex-col gap-2">
-          <section
-            class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
-          >
-            <div
-              class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
-            >
-              <span class="relative -top-0.5 hover:text-white">></span>
-            </div>
-            <div class="text-orange-400 hover:text-orange-600">
-              Lorem ipsum dolor sit amet.
-            </div>
-          </section>
-          <section
-            class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
-          >
-            <div
-              class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
-            >
-              <span class="relative -top-0.5 hover:text-white">></span>
-            </div>
-            <div class="text-orange-400 hover:text-orange-600">
-              Lorem ipsum dolor sit amet.
-            </div>
-          </section>
-          <section
-            class="flex flex-row items-center gap-2 border-b-2 pb-4 [&>*]:cursor-pointer"
-          >
-            <div
-              class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
-            >
-              <span class="relative -top-0.5 hover:text-white">></span>
-            </div>
-            <div class="text-orange-400 hover:text-orange-600">
-              Lorem ipsum dolor sit amet.
-            </div>
-          </section>
-          <section
-            class="flex flex-row items-center gap-2 pb-4 [&>*]:cursor-pointer"
-          >
-            <div
-              class="flex h-4 w-4 items-center justify-center rounded-full border-2 hover:border-orange-400 hover:bg-orange-400"
-            >
-              <span class="relative -top-0.5 hover:text-white">></span>
-            </div>
-            <div class="text-orange-400 hover:text-orange-600">
-              Lorem ipsum dolor sit amet.
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  
-    <section class="flex flex-col gap-4">
-      <section>
-        <div class="text-xl text-black">The screenshots</div>
-      </section>
-  
-      <section class="flex flex-col gap-2 md:flex-row">
-        <div class="relative flex items-center justify-center bg-gray-400 p-1">
-          <img src="./images/main-img.png" class="h-full w-full object-contain" />
-          <img
-            src="./images/m-glass.png"
-            class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
-          />
-        </div>
-        <div class="relative flex items-center justify-center bg-gray-400 p-1">
-          <img src="./images/main-img.png" class="h-full w-full object-contain" />
-          <img
-            src="./images/m-glass.png"
-            class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
-          />
-        </div>
-        <div class="relative flex items-center justify-center bg-gray-400 p-1">
-          <img src="./images/main-img.png" class="h-full w-full object-contain" />
-          <img
-            src="./images/m-glass.png"
-            class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
-          />
-        </div>
-        <div class="relative flex items-center justify-center bg-gray-400 p-1">
-          <img src="./images/main-img.png" class="h-full w-full object-contain" />
-          <img
-            src="./images/m-glass.png"
-            class="absolute left-0 top-0 h-full w-full bg-white object-contain opacity-0 transition-opacity duration-300 hover:opacity-50"
-          />
-        </div>
-      </section>
-    </section>
-  </main>
-  
+    </main>
 
     <footer>
       <section>
