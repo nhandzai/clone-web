@@ -12,8 +12,13 @@
     <header
       class="flex size-auto items-center gap-2 border border-solid border-gray-500 p-4"
     >
-      <img src="./images/icon.png" class="h-12 w-12 object-contain" />
-      <div class="pr-3 text-2xl font-bold text-red-600">Target</div>
+      <img
+        src="./images/icon.png"
+        class="h-12 w-12 cursor-pointer object-contain"
+      />
+      <div class="cursor-pointer pr-3 text-2xl font-bold text-red-600">
+        Target
+      </div>
       <div class="grow text-sm text-gray-400">
         Premium landing page template
       </div>
@@ -24,16 +29,15 @@
     <main
       class="flex w-full flex-col justify-center [&>*]:border [&>*]:border-t-0 [&>*]:border-solid [&>*]:border-gray-500 [&>*]:p-8 [&>*]:py-10"
     >
-      <section class="flex flex-col items-center md:flex-row">
+      <section class="flex flex-col items-center gap-6 md:flex-row">
         <section class="flex w-fit flex-col items-center gap-6">
-          <div class="text-4xl text-black">
+          <div class="text-4xl font-bold text-black">
             The perfect way to convert your traffic into sales
           </div>
           <div>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Necessitatibus voluptatem soluta, exercitationem ad, maxime ratione
-            sapiente eaque nam omnis aperiam excepturi reiciendis! Quis eligendi
-            assumenda consequuntur totam deserunt nobis a!
+            sapiente eaque nam omnis aperiam excepturi reiciendis!
           </div>
           <div>
             Fuga tenetur itaque praesentium distinctio, non labore voluptatem id
@@ -77,12 +81,12 @@
             class="h-auto w-20 object-contain"
           />
           <div class="flex flex-col gap-4">
-            <div class="text-xl text-black">Quick and easy</div>
+            <div class="text-xl font-bold text-black">Quick and easy</div>
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               earum nam culpa doloribus explicabo dolores veritatis maxime
               tempora possimus dolor exercitationem deserunt animi sit nisi
-              dolorum, numquam nobis facere excepturi.
+              dolorum.
             </div>
           </div>
         </section>
@@ -92,7 +96,7 @@
             class="h-auto w-20 object-contain"
           />
           <div class="flex flex-col gap-4">
-            <div class="text-xl text-black">Quick and easy</div>
+            <div class="text-xl font-bold text-black">Less risky</div>
             <div>
               Temporibus vel praesentium recusandae aliquam molestias maiores
               cupiditate, at asperiores architecto in.
@@ -105,7 +109,7 @@
             class="h-auto w-20 object-contain"
           />
           <div class="flex flex-col gap-4">
-            <div class="text-xl text-black">Quick and easy</div>
+            <div class="text-xl font-bold text-black">Optimized</div>
             <div>
               Nulla natus voluptas fuga deleniti sapiente possimus repellendus,
               quis autem molestias vero illum dolores quam optio, ducimus veniam
@@ -117,10 +121,10 @@
 
       <section class="flex flex-col gap-4">
         <section>
-          <div class="text-xl text-black">Check out the features</div>
+          <div class="text-xl font-bold text-black">Check out the features</div>
         </section>
 
-        <section class="flex flex-col md:flex-row">
+        <section class="flex flex-col gap-6 md:flex-row">
           <section class="w-auto pr-4 md:w-3/5">
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
@@ -187,7 +191,7 @@
 
       <section class="flex flex-col gap-4">
         <section>
-          <div class="text-xl text-black">The screenshots</div>
+          <div class="text-xl font-bold text-black">The screenshots</div>
         </section>
 
         <section class="flex flex-col gap-2 md:flex-row">
@@ -244,17 +248,17 @@
 
       <section class="flex flex-col gap-4">
         <section>
-          <div class="text-xl text-black">
+          <div class="text-xl font-bold text-black">
             See what out customers are saying...
           </div>
         </section>
         <div>
-          <div class="relative m-4 border border-gray-500 bg-white p-4">
-            <div>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+          <div class="relative border border-gray-500 bg-white p-4">
+            <div class="p-4 text-center italic text-gray-500">
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
               ab sapiente iusto dolor? Obcaecati beatae quia a natus suscipit!
               Vitae quos aperiam at quia in quibusdam officiis aspernatur
-              corporis placeat!dasdasdsa
+              corporis placeat!"
             </div>
             <div
               class="absolute -bottom-4 border-8 border-gray-400 border-b-transparent border-l-transparent"
@@ -268,14 +272,14 @@
               </div>
             </div>
           </div>
-          <div class="relative ">
-            <div class="absolute flex flex-row -top-3 left-12">
+          <div class="relative">
+            <div class="absolute left-8 top-2 flex flex-row">
               <div class="pl-3 pr-2 text-gray-500">Mike Tyson,</div>
               <div class="italic">Microsoft</div>
             </div>
           </div>
         </div>
-        <section class="flex flex-row items-center justify-center gap-5">
+        <section class="flex flex-row items-center justify-center gap-5 pt-8">
           <button
             class="rounded-full bg-gradient-to-b from-orange-500 to-red-500 p-2 px-5 text-xl font-bold text-red-700 transition-all duration-300 hover:scale-105 hover:from-red-500 hover:to-orange-500 hover:text-white hover:shadow-lg"
           >
@@ -291,14 +295,88 @@
       </section>
     </main>
 
-    <footer>
-      <section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+    <footer class="mb-10 bg-black">
+      <section class="custom-bg-pattern flex flex-col gap-6 p-6 md:flex-row">
+        <section class="flex w-full flex-col gap-4 md:w-1/3">
+          <div class="text-xl">Payment method</div>
+          <div class="text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            eum illum. Corporis ut modi, ipsam quidem aut, tenetur iusto quos
+            doloribus eos nobis facere autem rerum hic qui quam explicabo?
+          </div>
+          <div class="flex flex-row gap-2">
+            <img
+              src="./images/mtc.png"
+              class="h-auto w-10 rounded-md bg-white object-contain"
+            />
+            <img
+              src="./images/visa.png"
+              class="h-auto w-10 rounded-md bg-white object-contain"
+            />
+            <img
+              src="./images/pp.png"
+              class="h-auto w-10 rounded-md bg-white object-contain"
+            />
+          </div>
+        </section>
+
+        <section class="mr-0 flex w-full flex-col gap-4 md:mr-8 md:w-1/6">
+          <div class="text-xl">Get in touch</div>
+          <div class="text-gray-300">
+            Accusantium quo illo aliquam! Quia assumenda ducimus ratione nihil,
+            nobis consequatur ea eligendi error distinctio deleniti!
+          </div>
+        </section>
+
+        <section class="mr-0 flex w-full flex-col gap-4 md:mr-8 md:w-1/6">
+          <div class="text-xl">Design details</div>
+          <div class="text-gray-300">
+            Eligendi labore deleniti atque nobis reprehenderit vitae dolores
+            nemo pariatur excepturi, similique officia velit nisi.
+          </div>
+        </section>
+
+        <section
+          class="flex flex-grow cursor-pointer flex-row justify-center md:justify-end"
+        >
+          <img
+            src="./images/icon.png"
+            class="h-12 w-12 object-contain grayscale"
+          />
+          <div class="pr-3 text-3xl text-gray-400">Target</div>
+        </section>
       </section>
-      <section></section>
+
+      <section
+        class="flex flex-col items-center gap-4 bg-black p-6 text-gray-400 md:flex-row md:justify-between"
+      >
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="text-center">Copy right &copy; 2011 Target. All rights reserved.</div>
+          <div class="flex flex-row">
+            <div>&nbsp;Design by</div>
+            <div class="italic text-orange-500">&nbsp;Shegy</div>
+          </div>
+        </div>
+
+        <div class="flex flex-row gap-2">
+          <img
+            src="./images/fb.png"
+            class="h-10 w-10 cursor-pointer rounded-full bg-gray-700 p-1 grayscale"
+          />
+          <img
+            src="./images/yt.png"
+            class="h-10 w-10 cursor-pointer rounded-full bg-gray-700 p-1 grayscale"
+          />
+          <img
+            src="./images/tw.png"
+            class="h-10 w-10 cursor-pointer rounded-full bg-gray-700 p-1 grayscale"
+          />
+          <img
+            src="./images/in.png"
+            class="h-10 w-10 cursor-pointer rounded-full bg-gray-700 p-1 grayscale"
+          />
+        </div>
+      </section>
     </footer>
   </body>
 </html>
